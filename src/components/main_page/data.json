@@ -1,0 +1,161 @@
+{
+    "Coffee": [
+        {
+            "id": 1,
+            "title": "Espresso",
+            "price": ""
+        },
+        {
+            "id": "two",
+            "title": "Double Espresso",
+            "price": ""
+        },
+        {
+            "id": 3,
+            "title": "Americano",
+            "price": ""
+        },
+        {
+            "id": 4,
+            "title": "Macchiato",
+            "price": ""
+        },
+        {
+            "id": 5,
+            "title": "Cappuccino",
+            "price": ""
+        },
+        {
+            "id": 6,
+            "title": "Cafe Latte",
+            "price": ""
+        },
+        {
+            "id": 7,
+            "title": "Iced Coffee",
+            "price": ""
+        }
+    ],
+    
+    "Tea": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "price": "This is the full price of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "price": "This is the full price of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "price": "This is the full price of post 4"
+        }
+    ],
+    "Shakes": [
+        {
+            "id": 1,
+            "title": "Skahes&Juices",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 1,
+            "title": "Skahes&Juices",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 1,
+            "title": "Skahes&Juices",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 1",
+            "price": "This is the full price of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "price": "This is the full price of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "price": "This is the full price of post 4"
+        }
+    ],
+    "Pasteries": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "price": "This is the full price of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "price": "This is the full price of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "price": "This is the full price of post 4"
+        }
+    ],
+    "Cakes": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "price": "This is the full price of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "price": "This is the full price of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "price": "This is the full price of post 4"
+        }
+    ],
+    "Sandwiches": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "price": "This is the full price of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "price": "This is the full price of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "price": "This is the full price of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "price": "This is the full price of post 4"
+        }
+    ]
+    
+}
