@@ -6,6 +6,7 @@ import Navbar from './navbar/Navbar'
 import Drinks from '../pages/Drinks/Drinks'
 import Extra from '../pages/extras/Extra'
 import Checkout from '../pages/Checkout/Checkout'
+import About from '../pages/About us/About'
 
 function Page() {
   return (
@@ -15,8 +16,9 @@ function Page() {
         <Routes>
           <Route path='/home_page' element={<Home_page></Home_page>}/>
           <Route path='/drinks' element={<Drinks></Drinks>}/>
-          <Route path='/extra' element={<Extra></Extra>}/>
+          <Route path='/extras' element={<Extra></Extra>}/>
           <Route path='/checkout' element={<Checkout></Checkout>}/>
+          <Route path='/aboutus' element={<About></About>}/>
         </Routes>
       </div>
     </div>

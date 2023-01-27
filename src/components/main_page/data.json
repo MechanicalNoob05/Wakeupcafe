@@ -1,160 +1,75 @@
 {
     "Coffee": [
         {
-            "id": 1,
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0ADp4_DH5Lew45ZJCnJe7QHaFg%26pid%3DApi&f=1&ipt=6e25a52337925077b10b036f942ae9f12208ca6a30082e5aa22867391bfc845d&ipo=images",
             "title": "Espresso",
-            "price": ""
+            "price": "300"
         },
         {
-            "id": "two",
-            "title": "Double Espresso",
-            "price": ""
-        },
-        {
-            "id": 3,
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WsplNolfS_yQgrPuj7_YXAHaHa%26pid%3DApi&f=1&ipt=b55029c0ba75fa2e8941c01fc8626ba1121ee8a92cea5b69e322faabbebfe6ce&ipo=images",
             "title": "Americano",
-            "price": ""
+            "price": "190"
         },
         {
-            "id": 4,
-            "title": "Macchiato",
-            "price": ""
-        },
-        {
-            "id": 5,
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fc8%2FCappuccino_at_Sightglass_Coffee.jpg&f=1&nofb=1&ipt=fff435fe6ada36e6a495799e81b7b955b0316e9bb54c4e141ba2fc6e5cf9d8d8&ipo=images",
             "title": "Cappuccino",
-            "price": ""
+            "price": "180"
         },
         {
-            "id": 6,
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dAnfTxLSjolVsEsd2HAnrAHaHa%26pid%3DApi&f=1&ipt=1d2de76c51e7fd9c41f22c47c5709176013a90d061ab842bdd44a6492b374bf8&ipo=images",
             "title": "Cafe Latte",
-            "price": ""
+            "price": "110"
         },
         {
-            "id": 7,
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2m86YwVZYHm4kb2zXVO19AHaKy%26pid%3DApi&f=1&ipt=0b6d562409a8bc499c2329f726e8bd3ebafc7837d0b9190fbf3b9a37a766c9f1&ipo=images",
             "title": "Iced Coffee",
-            "price": ""
-        }
-    ],
-    
-    "Tea": [
-        {
-            "id": 1,
-            "title": "Post 1",
-            "price": "This is the full price of post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2",
-            "price": "This is the full price of post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "price": "This is the full price of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "price": "This is the full price of post 4"
+            "price": "150"
         }
     ],
     "Shakes": [
         {
-            "id": 1,
-            "title": "Skahes&Juices",
-            "price": "This is the full price of post 1"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.jyK6t9wXTWewj00pJf3NBwHaE8%26pid%3DApi&f=1&ipt=6de77930db38ef54dab2e489b9e8516caaaa94b4223836bea2567ce5e357adf5&ipo=images",
+            "title": "Vanilla Milkshake",
+            "price": "200"
         },
         {
-            "id": 1,
-            "title": "Skahes&Juices",
-            "price": "This is the full price of post 1"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.94bBm4fjSYoq6P7xBCcMxQHaE8%26pid%3DApi&f=1&ipt=f0fa4d358bd092f36c4ec1237e3918f6298e042e7f92e4240a6d6c1ec97077ce&ipo=images",
+            "title": "Triple nut caramel Milkshake",
+            "price": "210"
         },
         {
-            "id": 1,
-            "title": "Skahes&Juices",
-            "price": "This is the full price of post 1"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ZiZdgajXpBH5CG76AYDyjQHaGK%26pid%3DApi&f=1&ipt=dd419206abdfe9e09a262726d9a2fbd754e8cb74750e2a73c0d9f43b40a16f43&ipo=images",
+            "title": "Choc malt Milkshake",
+            "price": "140"
         },
         {
-            "id": 2,
-            "title": "Post 1",
-            "price": "This is the full price of post 2"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.HgjG0wzbdQwJ45jXpv1mVQHaFY%26pid%3DApi&f=1&ipt=ea334ca4307696809a8f7674012310b5b6d3a8a04d2b5e2c061d4a291af3372c&ipo=images",
+            "title": "Raspberry and white chocolate Milkshake",
+            "price": "180"
         },
         {
-            "id": 3,
-            "title": "Post 3",
-            "price": "This is the full price of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "price": "This is the full price of post 4"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cwRMLQVYru6ICAEzZ3kcmwHaE7%26pid%3DApi&f=1&ipt=9fc5d4ac67e8367439d6989cfae7388702586f086430e9fd96d2a0954983e829&ipo=images",
+            "title": "Strawberry marshallow Milkshake",
+            "price": "250"
         }
     ],
     "Pasteries": [
         {
-            "id": 1,
-            "title": "Post 1",
-            "price": "This is the full price of post 1"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GpJSUrUp-WpgTRtyIFthtwAAAA%26pid%3DApi&f=1&ipt=7161c404f9e08ede18b6c31244ade66348573f455ff1261befdc495cbb453a87&ipo=images",
+            "title": "Triple choclate pastry",
+            "price": "100"
         },
         {
-            "id": 2,
-            "title": "Post 2",
-            "price": "This is the full price of post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "price": "This is the full price of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "price": "This is the full price of post 4"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.wiICoQk1g1Ruu9FpbyD1dAHaE8%26pid%3DApi&f=1&ipt=44ddbd8ad07ae0232b747e85dd408507296546f3c5a99a4c5af7f5d0ab063df0&ipo=images",
+            "title": "Choclate fudgy pastry",
+            "price": "150"
         }
     ],
-    "Cakes": [
+    "Donuts": [
         {
-            "id": 1,
-            "title": "Post 1",
-            "price": "This is the full price of post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2",
-            "price": "This is the full price of post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "price": "This is the full price of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "price": "This is the full price of post 4"
-        }
-    ],
-    "Sandwiches": [
-        {
-            "id": 1,
-            "title": "Post 1",
-            "price": "This is the full price of post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2",
-            "price": "This is the full price of post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "price": "This is the full price of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "price": "This is the full price of post 4"
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n9L8ZusQEbauUJFHOYZBJAHaEz%26pid%3DApi&f=1&ipt=d84337fd0bdc87d49d42d8f272da6be26f3cd3afe4054c620a0dd55835153174&ipo=images",
+            "title": "Choclate donut",
+            "price": "80"
         }
     ]
     

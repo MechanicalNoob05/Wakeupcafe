@@ -1,0 +1,30 @@
+.home_page_main_container{
+    background-color: floralwhite;
+    height: 100vh;
+}
+.image-div{
+    width: 100%;
+    height: 50%;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FpHUqeRn.jpg&f=1&nofb=1&ipt=f26f673cb1c0bfe2a79457b26a77028d9c6768b1183bc900a29d359a1ebf2a3a&ipo=images');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.blur-div{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg,#000000c0,#ffffff00);
+}
+.cafe-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.home_page-content{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    background-color: inherit;
+}

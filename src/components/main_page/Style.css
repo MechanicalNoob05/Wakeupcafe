@@ -8,7 +8,7 @@
 .navbar{
     width: 100%;
     height: 6%;
-    background-color: gainsboro;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     color: inherit;
 }
 .navbar li.active{
-    background-color: aqua;
+    border-bottom: 2px solid black;
     font-size: large;
     font-weight: 600;
 }
@@ -36,10 +36,9 @@
     justify-content: space-between;
 }
 .link-container{
-    width: 30%;
+    width: 40%;
 }
 .page-content{
-    padding-top: 3%;
-    min-height: 100vh;
-    background-color: antiquewhite;
+    margin-top: 3%;
+    background-color: floralwhite;
 }

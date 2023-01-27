@@ -11,8 +11,9 @@ function Navbar() {
         <ul>
             <CustomLink to='/home_page'>Home</CustomLink>
             <CustomLink to='/drinks'>Drinks</CustomLink>
-            <CustomLink to='/extras'>Extras</CustomLink>
+            <CustomLink to='/extras'>Ready to Eat</CustomLink>
             <CustomLink to='/checkout'>Checkout</CustomLink>
+            <CustomLink to='/aboutus'>About us</CustomLink>
         </ul>
         </div>
     </div>

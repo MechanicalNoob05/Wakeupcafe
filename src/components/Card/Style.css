@@ -1,0 +1,43 @@
+.card-container{
+    margin: 2vh 0vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1vh;
+    background-color: floralwhite;
+}
+.drink-image-div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 30%;
+    border-radius: 2vh;
+    background-color: black;
+}
+.card-content{
+    width: 70%;
+    border-radius: 2vh;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: inherit;
+}
+.counter-div{
+    width: 40%;
+}
+.counter-div span{
+    margin: 0vh 2vh;
+}
+.counter-div button{
+    padding: 1vh;
+    background-color: floralwhite;
+    width: 5vh;
+    border-radius: 1vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.reset-btn{
+    margin: 0vh 2vh;
+}
