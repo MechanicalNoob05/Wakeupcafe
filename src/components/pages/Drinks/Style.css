@@ -8,4 +8,5 @@
 .drinks-container h1{
     background-color: white;
     padding: 1vh;
+    border-bottom: 2px solid black;
 }

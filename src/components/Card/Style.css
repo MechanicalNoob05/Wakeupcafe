@@ -6,7 +6,7 @@
     border-radius: 2vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1vh;
-    background-color: floralwhite;
+    background-color: white;
 }
 .drink-image-div{
     background-size: cover;
@@ -26,18 +26,26 @@
     background-color: inherit;
 }
 .counter-div{
-    width: 40%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0vh;
+
 }
 .counter-div span{
     margin: 0vh 2vh;
 }
 .counter-div button{
     padding: 1vh;
-    background-color: floralwhite;
-    width: 5vh;
+    background-color: white;
+    width: 6vh;
     border-radius: 1vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.reset-btn{
+    border: none;
+    font-weight:bold;
     margin: 0vh 2vh;
+}
+.card-txt{
+    padding-left: 2vh;
 }

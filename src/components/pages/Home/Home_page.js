@@ -4,17 +4,20 @@ import './Style.css'
 function Home_page() {
   return (
     <div className='home_page_main_container'>
-      <div className='image-div'>
-        <div className='blur-div'>
-
+      <section className='image-section'>
+        <div className='image-div'>
+          <div className='blur-div'>
+            <h1>Welcome to Wake-up Cafe,</h1>
+            <h1 className='down-arrow'>↓</h1>
+          </div>
         </div>
-      </div>
-    <div className='home_page-content'>
-      <h1>Welcome,</h1>
+      </section>
+      <section className='home_page-content'>
+        <h1>Welcome,</h1>
       <div>
         a
       </div>    
-    </div>
+      </section>
     </div>
     
   )

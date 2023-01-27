@@ -21,6 +21,9 @@
     list-style: none;
     padding: 1% 4%;
 }
+.navbar li:hover{
+    border-bottom: 1px solid grey;
+}
 .navbar li a{
     text-decoration: none;
     color: inherit;

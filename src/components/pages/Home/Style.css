@@ -1,10 +1,16 @@
 .home_page_main_container{
     background-color: floralwhite;
+    min-height: 100vh;
+}
+.image-section{
+    height: 80vh;
+}
+.home_page_main_container section{
     height: 100vh;
 }
 .image-div{
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FpHUqeRn.jpg&f=1&nofb=1&ipt=f26f673cb1c0bfe2a79457b26a77028d9c6768b1183bc900a29d359a1ebf2a3a&ipo=images');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -15,7 +21,33 @@
 .blur-div{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(0deg,#000000c0,#ffffff00);
+    background-image: linear-gradient(90deg,#000000c0,#ffffff00);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: wheat;
+}
+.blur-div h1{
+    font-size: 7vh;
+    padding-left: 5vh;
+}
+.down-arrow{
+    align-self: center;
+    padding-top: 20%;
+    color: white;
+    animation: motion;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes motion{
+    from{
+        transform: translateY(-2vh);
+    }
+    to{
+        transform: translateY(2vh);
+    }
 }
 .cafe-image{
     width: 100%;
@@ -25,6 +57,6 @@
 .home_page-content{
     width: 100%;
     height: 100%;
-    padding: 1%;
+    padding: 4% 1%;
     background-color: inherit;
 }

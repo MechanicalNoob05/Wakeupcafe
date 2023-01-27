@@ -1,6 +1,6 @@
 import './Style.css'
 import React, { useRef } from 'react'
-import { Route, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Login(props) {
   const navRef = useRef();
@@ -24,7 +24,7 @@ function Login(props) {
             <input className='inputfield'></input>
             <label>Password</label>
             <input className='inputfield'></input>
-            <button className='auth-btn' onClick={(e)=>{navigate('/home')}}>Login</button>
+            <button className='auth-btn' onClick={(e)=>{navigate('/home/home_page')}}>Login</button>
           </form>
         </div>
         <div className='right'>
@@ -41,7 +41,7 @@ function Login(props) {
             <input className='inputfield'></input>
             <label>Confirm-Password</label>
             <input className='inputfield'></input>
-            <button className='auth-btn' onClick={(e)=>{navigate('/home')}}>Sign-up</button>
+            <button className='auth-btn' onClick={(e)=>{navigate('/home/home_page')}}>Sign-up</button>
           </form>
         </div>
       </div>
