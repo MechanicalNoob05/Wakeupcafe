@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState} from 'react'
 import './Style.css'
 
 function Card(props) {
   const [counter, setCounter] = useState(0)
-  
+  const [data , setData] = useState()
   // Function is called everytime increment button is clicked
   const handleClick1 = () => {
     // Counter state is incremented
@@ -21,6 +21,11 @@ function Card(props) {
   const reset = () => {
     setCounter(0)
   }
+  const addcart = (e) =>{
+    const value = e.target.value
+    setData(value)
+    props.cardvalue(value)
+  }
   return (
     <div className='card-container'>
         <div className='drink-image-div' style={{backgroundImage: `url(${props.url})`}}>
@@ -29,7 +34,7 @@ function Card(props) {
             <h2 className='card-txt'>{props.name}</h2>
             <div className='card-txt'>Rs. {props.price}</div>
             <div className='counter-div'>
-              <button>A</button>
+              <button onClick={(e)=>addcart(e) } value={[props.name ,counter, props.price]}>A</button>
               <button onClick={handleClick1}>+</button>
               <span>{counter}</span>
               <button onClick={handleClick2}>-</button>

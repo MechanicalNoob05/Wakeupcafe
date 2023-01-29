@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Card from '../../Card/Card'
 import Data from "../../../components/main_page/data.json"
 import './Style.css'
 
 function Extra() {
+
+  const [rValue ,setRValue] = useState()
+ // const result = rValue.split(","); 
+  console.log(rValue)
   return (
     <div className='extra-container'>
       <section>
@@ -11,7 +15,7 @@ function Extra() {
       {
         Data.Pasteries.map(record => {
           return(
-            <Card name={record.title} url={record.url} price={record.price}/>
+            <Card key={record.title} name={record.title} url={record.url} price={record.price} cardvalue={setRValue}/>
           )
         })
       }
@@ -21,7 +25,7 @@ function Extra() {
       {
         Data.Donuts.map(record => {
           return(
-            <Card name={record.title} url={record.url} price={record.price}/>
+            <Card key={record.title} name={record.title} url={record.url} price={record.price} cardvalue={setRValue}/>
           )
         })
       }

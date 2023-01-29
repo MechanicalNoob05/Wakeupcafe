@@ -8,9 +8,6 @@ function Checkout() {
         <div className='item-container'>
           <ul>
             <h2>List of Items</h2>
-            <li>item1</li>
-            <li>item1</li>
-            <li>item1</li>
           </ul>
         </div>
       </div>
