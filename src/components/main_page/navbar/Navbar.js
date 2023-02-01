@@ -12,7 +12,6 @@ function Navbar() {
             <CustomLink to='home_page'>Home</CustomLink>
             <CustomLink to='menu/drinks'>Menu</CustomLink>
             <CustomLink to='checkout'>Checkout</CustomLink>
-            <CustomLink to='aboutus'>About us</CustomLink>
         </ul>
         </div>
     </div>

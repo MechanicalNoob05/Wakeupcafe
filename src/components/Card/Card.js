@@ -26,6 +26,7 @@ function Card(props) {
     setData(value)
     props.cardvalue(value)
   }
+  
   return (
     <div className='card-container'>
         <div className='drink-image-div' style={{backgroundImage: `url(${props.url})`}}>

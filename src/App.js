@@ -7,7 +7,6 @@ import Home_page from './components/pages/Home/Home_page';
 import Drinks from './components/pages/Drinks/Drinks'
 import Extra from './components/pages/extras/Extra'
 import Checkout from './components/pages/Checkout/Checkout'
-import About from './components/pages/About us/About'
 import Menu from './components/pages/Menu/Menu';
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
             <Route path='extras' element={<Extra></Extra>}/>
           </Route>
           <Route path='checkout' element={<Checkout></Checkout>}/>
-          <Route path='aboutus' element={<About></About>}/>
+          
         </Route>
       </Routes>
     </div>

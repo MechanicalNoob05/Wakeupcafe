@@ -1,12 +1,14 @@
 .home_page_main_container{
     background-color: floralwhite;
     min-height: 100vh;
+    scroll-snap-type: y mandatory;
 }
 .image-section{
     height: 80vh;
 }
 .home_page_main_container section{
     height: 100vh;
+    scroll-snap-align: start;
 }
 .image-div{
     width: 100%;
@@ -59,4 +61,171 @@
     height: 100%;
     padding: 4% 1%;
     background-color: inherit;
+    background-image: url('../../../assets/coffeebeans.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 1%;
+    align-items: center;
+}
+.content-container-left{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 1%;
+    height: 60%;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.content-container-left.inview{
+    width: 40%;
+    padding: 1%;
+    height: 60%;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    animation-name: increaseh;
+    animation-duration: 1s;
+}
+@keyframes increaseh {
+    from{
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        height: 60%;
+        opacity: 1;
+    }
+}
+.content-container-left p{
+    text-align: justify;
+}
+.content-container-right{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+}
+
+.home_page-content2{
+    width: 100%;
+    height: 100%;
+    padding: 4% 1%;
+    background-color: inherit;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.gU5A8qTs2iLVG1GLz58CQAHaEo%26pid%3DApi&f=1&ipt=94bf37f07aba573f37e04636ed385694eac40544f7f2afdc74a1dc3db85bd1ab&ipo=images');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    margin-top: 1%;
+    align-items: center;
+}
+.content-container-left2{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 1%;
+    height: 0;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.content-container-left2.inview{
+    width: 40%;
+    padding: 1%;
+    height: 40%;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    animation-name: increaseh2;
+    animation-duration: 1s;
+}
+
+@keyframes increaseh2 {
+    from{
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        height: 40%;
+        opacity: 1;
+    }
+}
+.content-container-left2 p{
+    text-align: justify;
+}
+.content-container-right2{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+}
+
+
+.home_page-content3{
+    width: 100%;
+    height: 100%;
+    padding: 4% 1%;
+    background-color: inherit;
+    background-image: url('../../../assets/cup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-container3{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 1%;
+    align-items: center;
+}
+.content-container-left3{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 1%;
+    height: 0;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.content-container-left3.inview{
+    width: 40%;
+    padding: 1%;
+    height: 40%;
+    background-color: #ffffffd0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    animation-name: increaseh3;
+    animation-duration: 1s;
+}
+
+@keyframes increaseh3 {
+    from{
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        height: 40%;
+        opacity: 1;
+    }
+}
+.content-container-left3 p{
+    text-align: justify;
+}
+.content-container-right3{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
 }
