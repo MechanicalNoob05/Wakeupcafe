@@ -20,6 +20,7 @@ function Card(props) {
   }
   const reset = () => {
     setCounter(0)
+    localStorage.removeItem(props.name)
   }
   const addcart = (e) =>{
     const value = e.target.value

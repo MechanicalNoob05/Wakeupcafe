@@ -6,7 +6,16 @@ import './Style.css'
 function Drinks() {
   const [rValue ,setRValue] = useState()
  // const result = rValue.split(","); 
-  console.log(rValue)
+
+  if(rValue != null){
+    let result = rValue.split(',')
+    var obj = {
+      "Quantity": result[1],
+      "Price": result[2]
+    }
+    localStorage.setItem(result[0],JSON.stringify(obj))
+    //console.log(result[0])
+  }
   return (
     <div className='drinks-container'>
       <section>

@@ -2,6 +2,32 @@ import React from 'react'
 import './Style.css'
 
 function Checkout() {
+
+
+  function allStorage() {
+
+    var archive = {}, // Notice change here
+        keys = Object.keys(localStorage),
+        i = keys.length;
+
+    while ( i-- ) {
+        archive[ keys[i] ] = localStorage.getItem( keys[i] );
+    }
+
+    return archive;
+}
+
+  //console.log(allStorage())
+  const new_string = allStorage()
+  console.log(new_string)
+  console.log(Object.keys(new_string))
+  console.log(JSON.parse(new_string.Espresso))
+  // for(let i =0 ; i<new_string.length;i++){
+  //   console.log(new_string[i])
+  // }
+  // console.log(new_string.Espresso.replace('"quantity":','').replace(',"price":',' ').replace('{','').replace('}','').replace('"','').split(' '))
+
+  // var retrive1 = JSON.parse(localStorage.getItem('Americano'))
   return (
     <div className='checkout-container'>
       <div className='checkout-left'>
